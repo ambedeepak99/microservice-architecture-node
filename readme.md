@@ -5,6 +5,7 @@ when you separate your application into smaller applications (we will call them 
 
 
 **How it's Works :**
+
 1. **Run Gateway Server :**
 
     Install dependencies for Gateway Server :
@@ -12,14 +13,17 @@ when you separate your application into smaller applications (we will call them 
     $ cd GatewayServer
     $ npm install
     ```
+    
     Install `microservice-gateway` for Gateway Server :
     ```
     $ npm install microservice-gateway --save
     ```
+    
     Start Gateway Server :
     ```
     $ npm start
     ```
+    
     Gateway server running on **3000 Port**.
     
     Usages of `microservice-gateway` in Gateway Server :
@@ -70,6 +74,7 @@ when you separate your application into smaller applications (we will call them 
     $ npm install
     $ npm start
     ```
+    
     Run MicroService2 on port 3002,
     ```
     $ cd MicroService2
